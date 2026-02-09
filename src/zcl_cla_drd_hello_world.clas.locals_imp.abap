@@ -18,3 +18,17 @@ CLASS lcl_abc IMPLEMENTATION.
 
 
 ENDCLASS.
+
+
+
+class lcl_abld definition.
+
+  public section.
+  protected section.
+  private section.
+
+endclass.
+
+class lcl_abld implementation.
+
+endclass.

@@ -18,7 +18,7 @@ CLASS zcl_cla_drd_hello_world IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 *    out->write( 'Ten million pounds of sludge from NY and NJ' ).
 
-
+    out->write( 'Ten million pounds of sludge from NY and NJ' ).
 
 * Example 1: Local Types
 **********************************************************************

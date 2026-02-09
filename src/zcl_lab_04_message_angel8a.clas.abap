@@ -62,14 +62,14 @@ METHOD if_oo_adt_classrun~main.
     ENDIF.
 
 * 5 . Funciones con expresiones regulares
-    DATA(lv_email) = `angel8a@ejemplo.com`.
-    lv_pattern = `\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b`.
-
-    IF contains( val = lv_email pcre = lv_pattern ).
-      out->write( |Email válido: { lv_email }| ).
-    ELSE.
-      out->write( 'Email no válido' ).
-    ENDIF.
+*    DATA(lv_email) = `angel8a@ejemplo.com`.
+*    lv_pattern = `\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b`.
+*
+*    IF contains( val = lv_email pcre = lv_pattern ).
+*      out->write( |Email válido: { lv_email }| ).
+*    ELSE.
+*      out->write( 'Email no válido' ).
+*    ENDIF.
 
   ENDMETHOD.
 
