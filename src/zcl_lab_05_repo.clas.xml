@@ -3,22 +3,14 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_LAB_04_MESSAGE_ANGEL8A</CLSNAME>
+    <CLSNAME>ZCL_LAB_05_REPO</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>LAB 4</DESCRIPT>
+    <DESCRIPT>REPOSITORIO DEL MAESTRO</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
    </VSEOCLASS>
-   <TPOOL>
-    <item>
-     <ID>I</ID>
-     <KEY>001</KEY>
-     <ENTRY>Test with text symbols</ENTRY>
-     <LENGTH>26</LENGTH>
-    </item>
-   </TPOOL>
   </asx:values>
  </asx:abap>
 </abapGit>
